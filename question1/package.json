@@ -1,0 +1,16 @@
+{
+  "name": "question1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build":"npx tsc",
+    "test": "npm run build && node ./out/src/test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
