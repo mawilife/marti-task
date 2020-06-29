@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "build":"npx tsc",
-    "test": "npm run build && node ./out/src/test.js"
+    "start": "npm run build && node ./out/src/test.js"
   },
   "author": "",
   "license": "ISC"
